@@ -1,0 +1,100 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Cardiologist",
+      "qualification": "MBBS, MD Cardiology",
+      "experience": 10,
+      "fee": 800,
+      "rating": 4.8,
+      "photo": "https://placehold.co/300x300?text=Dr+Priya",
+      "address": "City Care Hospital, Pune",
+      "bio": "Experienced cardiologist specializing in heart health.",
+      "workingDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "workingHours": "10:00 AM - 4:00 PM"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Rahul Verma",
+      "specialty": "Dermatologist",
+      "qualification": "MBBS, MD Dermatology",
+      "experience": 8,
+      "fee": 600,
+      "rating": 4.7,
+      "photo": "https://placehold.co/300x300?text=Dr+Rahul",
+      "address": "Health Plus Clinic, Pune",
+      "bio": "Specialist in skin and hair care.",
+      "workingDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "workingHours": "11:00 AM - 5:00 PM"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Anjali Patel",
+      "specialty": "Pediatrician",
+      "qualification": "MBBS, MD Pediatrics",
+      "experience": 7,
+      "fee": 500,
+      "rating": 4.9,
+      "photo": "https://placehold.co/300x300?text=Dr+Anjali",
+      "address": "Little Stars Clinic, Pune",
+      "bio": "Provides healthcare and wellness support for children.",
+      "workingDays": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "workingHours": "9:00 AM - 2:00 PM"
+    }
+  ],
+  "appointments": [
+    {
+      "appointmentId": "CP-1792738467940",
+      "doctorId": 1,
+      "doctorName": "Aarav Sharma",
+      "fee": 800,
+      "patient": {
+        "name": "zxcvbnm",
+        "age": "11",
+        "gender": "Male",
+        "phone": "1234567899",
+        "email": "wasedfghj@gmsail.com",
+        "reason": "sdxcfvgbhnjm,"
+      },
+      "date": "2026-10-23",
+      "time": "10:30 AM",
+      "status": "Cancelled",
+      "id": 1
+    },
+    {
+      "appointmentId": "CP-1792835318701",
+      "doctorId": 3,
+      "doctorName": "Anjali Patel",
+      "fee": 500,
+      "patient": {
+        "name": "Prachi D",
+        "age": "18",
+        "gender": "Female",
+        "phone": "8459699194",
+        "email": "prachideshmukh25@navgurukul.org",
+        "reason": "pain"
+      },
+      "date": "2026-10-24",
+      "time": "11:00 AM",
+      "status": "Confirmed",
+      "id": 2
+    }
+  ],
+  "blockedSlots": []
+}
